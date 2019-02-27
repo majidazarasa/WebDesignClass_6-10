@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+
+        table,
+        td,
+        th {
+            border: 2px solid #333;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 15px;
+        }
+
+        th {
+            text-align: left;
+        }
+        #t01{
+            margin-top: 15px;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+        table#t01 tr:nth-child(even){
+            background-color: #eee;
+        }
+        table#t01 tr:nth-child(odd){
+            background-color: #fff;
+        }
+    </style>
+</head>
+<!-- Grid -->
+
+<body>
+    <table>
+        <caption>Melinda & Gates Foundation</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <table id="t01">
+            <caption>Melinda & Gates Foundation</caption>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>A2</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>B1</td>
+                <td>B2</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>D1</td>
+                <td>D2</td>
+                <td>15</td>
+            </tr>
+        </table>
+</body>
+
+</html>

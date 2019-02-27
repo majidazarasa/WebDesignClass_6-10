@@ -1,0 +1,24 @@
+/* div#gr{
+    background-image: linear-gradient(#f1f1f1, #f3f3f3);
+} */
+body{
+    direction: rtl;
+    color: yellow;
+    /* background: #ffffff transparent url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+    /* background-size: 300px; */
+
+    /* background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: left top; */
+    /* background-attachment: fixed; */
+    /* height: 100%; */
+    /* margin-top:5px; */
+    /* max-width: 600px; */
+}
+div{
+    color:red;
+    border: 1px solid blue;
+}
+/* h1{
+    color: initial;
+} */

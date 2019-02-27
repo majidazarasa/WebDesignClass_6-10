@@ -1,0 +1,14 @@
+*{
+    color: tomato;
+}
+.fixed-bg{
+    background-image: url('home_event_parallax-1.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scrollable{
+    height: 800px;
+    background-color: yellow;
+}
